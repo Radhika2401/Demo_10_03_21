@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CustomTextView">
+        <!-- Base text color, typeface, size, and style. -->
+        <attr name="font_family" format="string" />
+        <attr name="canvas_mode" format="boolean" />
+        <attr name="strike_through" format="boolean" />
+        <attr name="solid_color" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="BusinessPlanView">
+        <attr name="material_icon" format="string" />
+        <attr name="text" format="string" />
+        <attr name="solid_canvas_color" format="color" />
+        <attr name="show_only_icon" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="PaymentModeView">
+        <attr name="mode_name" format="string" />
+        <attr name="mode_desc" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="RecentSearchView">
+        <attr name="search_text" format="string" />
+        <attr name="image" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="CustomHeaderWithIconAndTextView">
+        <attr name="header_text" format="string" />
+        <attr name="lable_text" format="string" />
+        <attr name="hint" format="string" />
+        <attr name="hide_icon" format="boolean" />
+        <attr name="header_text_color" format="color" />
+        <attr name="hide_header" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="CustomIconWithTextViews">
+        <attr name="title_text" format="string" />
+        <attr name="small_text" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="CustomHeaderWithIconAndEditText">
+        <attr name="headerview_text" format="string" />
+        <attr name="edit_text" format="string" />
+        <attr name="icon_image" format="string" />
+        <attr name="hint_text" format="string" />
+        <attr name="hide_material_icon" format="boolean" />
+        <attr name="hide_header_text" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="CustomPaymentStepperView">
+        <attr name="city_name" format="string" />
+        <attr name="point_text" format="string" />
+        <attr name="weight" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="CustomProgressBar">
+        <attr name="progress_color" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="AutoCompleteTextView">
+        <attr name="text_hint" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="CustomRadioButton">
+        <attr name="radio_button_label" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="RangeBar">
+        <attr name="tickStart" format="float" />
+        <attr name="tickEnd" format="float" />
+        <attr name="tickInterval" format="float" />
+        <attr name="tickHeight" format="dimension" />
+        <attr name="tickColor" format="color" />
+        <attr name="barWeight" format="dimension" />
+        <attr name="rangeBarColor" format="reference|color" />
+        <attr name="rangeBarTextColor" format="reference|color" />
+        <attr name="pinColor" format="reference|color" />
+        <attr name="selectorSize" format="dimension" />
+        <attr name="pinPadding" format="dimension" />
+        <attr name="pinMinFont" format="dimension" />
+        <attr name="pinMaxFont" format="dimension" />
+        <attr name="rangeBarPaddingBottom" format="dimension" />
+        <attr name="selectorColor" format="reference|color" />
+        <attr name="rangeBar" format="boolean" />
+        <attr name="temporaryPins" format="boolean" />
+        <attr name="connectingLineWeight" format="dimension" />
+        <attr name="connectingLineColor" format="reference|color" />
+        <attr name="pinRadius" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="ShapeView">
+        <attr name="shape" format="enum">
+            <enum name="Triangle" value="1" />
+            <enum name="Square" value="2" />
+            <enum name="Circle" value="3" />
+            <enum name="V_Dashed_Line" value="4" />
+            <enum name="H_Dashed_Line" value="5" />
+        </attr>
+        <attr name="shape_color" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="IconTextView">
+        <attr name="icon_text" format="string" />
+        <attr name="icon_color" format="color" />
+        <!--<attr name="icon_height" format="integer"/>
+        <attr name="icon_width" format="integer"/>-->
+    </declare-styleable>
+
+    <declare-styleable name="ComboIconTextView">
+        <attr name="combo_layout" format="enum">
+            <enum name="HORIZONTAL" value="0"></enum>
+            <enum name="VERTICAL" value="1"></enum>
+        </attr>
+        <attr name="combo_icon_color" format="color" />
+        <attr name="combo_text" format="string" />
+        <attr name="combo_text_color" format="color" />
+        <attr name="combo_title_text_size" format="float" />
+        <attr name="combo_icon_text_size" format="float" />
+        <!--<attr name="combo_icon_height" format="integer"/>
+        <attr name="combo_icon_width" format="integer"/>-->
+    </declare-styleable>
+
+    <declare-styleable name="SortingTabView">
+        <!--<attr name="sorting_tab_image" format="reference"/>-->
+        <attr name="sorting_tab_title" format="string" />
+        <attr name="sorting_tab_title_text_color" format="color" />
+        <attr name="sorting_tab_title_text_size" format="integer" />
+        <attr name="sorting_tab_material_icon_color" format="color" />
+        <attr name="sorting_tab_sorting_icon" format="string" />
+        <attr name="sorting_tab_sorting_background_color_normal" format="color" />
+        <attr name="sorting_tab_sorting_background_color_focused" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="RatingView">
+        <attr name="rating_text" format="string" />
+        <attr name="current_rate" format="integer" />
+        <attr name="maximum_rate" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="HeaderWithIconView">
+        <attr name="cell_title" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="CustomExpandableTableView">
+        <attr name="header_title" format="string" />
+        <attr name="title_all_caps" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="DrawableWithText">
+        <attr name="drawable_with_text_text" format="string" />
+        <attr name="drawable_with_text_text_color" format="color" />
+        <attr name="drawable_with_text_text_size" format="integer" />
+        <attr name="drawable_with_text_icon" format="reference" />
+        <attr name="drawable_with_text_icon_size" format="integer" />
+        <attr name="drawable_with_text_icon_color" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="CustomDate">
+        <attr name="customdate_text" format="string" />
+        <attr name="customdate_textcolor" format="color" />
+        <attr name="customdate_textsize" format="integer" />
+        <attr name="customdate_texticon" format="reference" />
+        <attr name="customdate_iconsize" format="integer" />
+        <attr name="customdate_iconcolor" format="color" />
+        <attr name="customdate_lines" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="CustomDateWithTitle">
+        <attr name="customdatewithtitle_text" format="string" />
+        <attr name="customdatewithtitle_textcolor" format="color" />
+        <attr name="customdatewithtitle_textsize" format="integer" />
+        <attr name="customdatewithtitle_texticon" format="reference" />
+        <attr name="customdatewithtitle_iconsize" format="integer" />
+        <attr name="customdatewithtitle_iconcolor" format="color" />
+        <attr name="customdatewithtitle_hint" format="string" />
+    </declare-styleable>
+
+
+    <declare-styleable name="CustomTime">
+        <attr name="customtime_textcolor" format="color" />
+        <attr name="customtime_textsize" format="integer" />
+        <attr name="customtime_texticon" format="reference" />
+        <attr name="customtime_iconsize" format="integer" />
+        <attr name="customtime_iconcolor" format="color" />
+        <attr name="customtime_hint" format="string" />
+
+    </declare-styleable>
+
+    <declare-styleable name="CustomDateTime">
+        <attr name="customdatetime_textcolor" format="color" />
+        <attr name="customdatetime_textsize" format="integer" />
+        <attr name="customdatetime_texticon" format="reference" />
+        <attr name="customdatetime_iconsize" format="integer" />
+        <attr name="customdatetime_iconcolor" format="color" />
+    </declare-styleable>
+
+
+    <declare-styleable name="BookingInfoView">
+        <attr name="booking_title" format="string" />
+        <attr name="booking_type" format="string" />
+        <attr name="booking_number" format="string" />
+        <attr name="booking_business_color" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="CustomButton">
+        <attr name="button_text" format="string" />
+        <attr name="button_text_color" format="color" />
+        <attr name="button_enable" format="boolean" />
+        <attr name="button_drawable" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="CustomCheckBox">
+        <attr name="checkbox_text" format="string" />
+        <attr name="checkbox_checked" format="boolean" />
+        <attr name="checkbox_divider" format="boolean" />
+    </declare-styleable>
+
+    <!-- Range Seekbar -->
+    <declare-styleable name="CrystalRangeSeekbar">
+        <attr name="corner_radius" format="float" />
+        <attr name="min_value" format="float" />
+        <attr name="max_value" format="float" />
+        <attr name="min_start_value" format="float" />
+        <attr name="max_start_value" format="float" />
+        <attr name="steps" format="float" />
+        <attr name="gap" format="float" />
+        <attr name="fix_gap" format="float" />
+        <attr name="bar_color" format="color" />
+        <attr name="bar_highlight_color" format="color" />
+        <attr name="left_thumb_color" format="color" />
+        <attr name="left_thumb_color_pressed" format="color" />
+        <attr name="left_thumb_image" format="reference" />
+        <attr name="left_thumb_image_pressed" format="reference" />
+        <attr name="right_thumb_color" format="color" />
+        <attr name="right_thumb_color_pressed" format="color" />
+        <attr name="right_thumb_image" format="reference" />
+        <attr name="right_thumb_image_pressed" format="reference" />
+        <attr name="position" format="enum">
+            <enum name="left" value="0" />
+            <enum name="right" value="1" />
+        </attr>
+        <attr name="data_type" format="enum">
+            <enum name="_long" value="0" />
+            <enum name="_double" value="1" />
+            <enum name="_integer" value="2" />
+            <enum name="_float" value="3" />
+            <enum name="_short" value="4" />
+            <enum name="_byte" value="5" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="PersonCountView">
+        <attr name="age_hint" format="string" />
+    </declare-styleable>
+    <declare-styleable name="CustomNumberPicker">
+        <attr name="description" format="string" />
+        <attr name="type" format="enum">
+            <enum name="ADULT" value="0" />
+            <enum name="CHILD" value="1" />
+        </attr>
+    </declare-styleable>
+
+
+    <declare-styleable name="TagView">
+        <attr name="tagview_text" format="string" />
+        <attr name="tagview_text_color" format="color" />
+        <attr name="tagview_text_size" format="integer" />
+        <attr name="tagview_background_color" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="FacilityView">
+        <attr name="facilityview_icon" format="reference" />
+        <attr name="facilityview_text" format="string" />
+        <attr name="facilityview_icon_size" format="integer" />
+        <attr name="facilityview_icon_color" format="color" />
+        <attr name="facilityview_text_color" format="color" />
+        <attr name="facilityview_text_size" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="ExpandableGridView">
+        <attr name="horizontalSpacing" format="dimension" />
+        <attr name="verticalSpacing" format="dimension" />
+        <attr name="stretchMode">
+            <enum name="none" value="0" />
+            <enum name="spacingWidth" value="1" />
+            <enum name="columnWidth" value="2" />
+            <enum name="spacingWidthUniform" value="3" />
+        </attr>
+        <attr name="columnWidth" format="dimension" />
+        <attr name="numColumns" format="integer" min="0">
+            <enum name="auto_fit" value="-1" />
+        </attr>
+    </declare-styleable>
+
+
+    <declare-styleable name="MyExpandableLayout">
+        <attr name="expDuration" format="integer|reference" />
+        <attr name="expWithParentScroll" format="boolean" />
+        <attr name="expExpandScrollTogether" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="RangeSeekBar">
+        <!-- the minimum of the range -->
+        <attr name="absoluteMinValue" format="integer|float" />
+
+        <!-- the maximum of the range -->
+        <attr name="absoluteMaxValue" format="integer|float" />
+
+        <!-- show a single slider -->
+        <attr name="singleThumb" format="boolean" />
+
+        <!-- show the labels on the right and left-->
+        <attr name="showLabels" format="boolean" />
+
+        <!-- alwaysActive will make the buttons and bar always draw as the activeColor (the default is false) -->
+        <attr name="alwaysActive" format="boolean" />
+
+        <!-- show the currently selected value above each thumb (defaults to true) -->
+        <attr name="valuesAboveThumbs" format="boolean" />
+
+        <!-- padding on either side on the slider -->
+        <attr name="internalPadding" format="dimension" />
+
+        <!-- the height of the bar -->
+        <attr name="barHeight" format="dimension" />
+
+        <!-- the color of the bar that is not selected -->
+        <attr name="defaultColor" format="color" />
+
+        <!-- the color of the bar that is selected -->
+        <attr name="activeColor" format="color" />
+
+        <!-- the color of the text above thumbs -->
+        <attr name="textAboveThumbsColor" format="color" />
+
+        <!-- set drawables for thumb handles -->
+        <attr name="thumbNormal" format="reference" />
+        <attr name="thumbPressed" format="reference" />
+        <attr name="thumbDisabled" format="reference" />
+
+        <!-- thumb shadow specifications -->
+        <attr name="thumbShadow" format="boolean" />
+        <attr name="thumbShadowColor" format="color" />
+        <attr name="thumbShadowXOffset" format="dimension" />
+        <attr name="thumbShadowYOffset" format="dimension" />
+        <attr name="thumbShadowBlur" format="dimension" />
+
+        <attr name="minDefValue" format="integer|float" />
+
+        <!-- the maximum of the range -->
+        <attr name="maxDefValue" format="integer|float" />
+    </declare-styleable>
+
+    <declare-styleable name="TitleRowView">
+        <attr name="TitleRowView_title_text" format="string"></attr>
+        <attr name="TitleRowView_title_color" format="color"></attr>
+        <attr name="TitleRowView_title_text_size" format="integer"></attr>
+        <attr name="TitleRowView_icon_image" format="reference"></attr>
+        <attr name="TitleRowView_show_divider" format="integer"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="ViewTabSwitcher">
+        <attr name="tab_switcher_tab_1_title" format="string"></attr>
+        <attr name="tab_switcher_tab_2_title" format="string"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="TicketDetailItemView">
+        <attr name="title" format="string" />
+        <attr name="ticket_description" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="CurrencyTextView">
+        <!-- Base text color, typeface, size, and style. -->
+        <attr name="CurrencyTextView_text_amount" format="string" />
+        <attr name="CurrencyTextView_text_currency_symbol" format="string" />
+        <attr name="CurrencyTextView_text_size" format="integer" />
+        <attr name="CurrencyTextView_text_color" format="color" />
+        <attr name="CurrencyTextView_is_currency_prefix" format="boolean" />
+    </declare-styleable>
+
+
+    <declare-styleable name="TintImageView">
+        <attr name="tint" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="ErrorMessageView">
+        <attr name="ErrorMessageView_Message_Text" format="string" />
+        <attr name="ErrorMessageView_Message_Text_Color" format="color" />
+        <attr name="ErrorMessageView_Message_Text_Size" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="CustomEditTextView">
+        <attr name="CustomEditTextView_hint" format="string" />
+        <attr name="CustomEditTextView_hint_color" format="color" />
+        <attr name="CustomEditTextView_hint_text" format="string" />
+        <attr name="CustomEditTextView_hint_text_color" format="color" />
+        <attr name="CustomEditTextView_hint_text_size" format="integer" />
+        <attr name="CustomEditTextView_max_lines" format="integer" />
+        <attr name="CustomEditTextView_is_multiline" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="ViewInputEditText">
+        <attr name="iedt_hint" format="string" />
+        <attr name="iedt_hint_color" format="color" />
+        <attr name="iedt_text" format="string" />
+        <attr name="iedt_hint_text_color" format="color" />
+        <attr name="iedt_hint_text_size" format="integer" />
+        <attr name="iedt_max_lines" format="integer" />
+        <attr name="iedt_is_multiline" format="boolean" />
+        <attr name="iedt_is_show_group_icon" format="boolean" />
+        <attr name="iedt_group_icon" format="reference" />
+        <attr name="iedt_icon_color" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="ViewInputSpinner">
+        <attr name="isp_show_group_icon" format="boolean" />
+        <attr name="isp_hint_text" format="string" />
+        <attr name="isp_group_icon" format="reference" />
+        <attr name="isp_icon_tint_color" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="TriangleShapeView">
+        <attr name="shape_bg_color" format="color" />
+        <attr name="shape_direction" format="enum">
+            <enum name="top_arrow" value="0" />
+            <enum name="right_arrow" value="1" />
+            <enum name="bottom_arrow" value="2" />
+            <enum name="left_arrow" value="3" />
+            <enum name="promotion_arrow" value="4" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="HorizontalNumberPicker">
+        <attr name="hnp_text_color" format="color" />
+        <attr name="hnp_text_size" format="dimension" />
+        <attr name="hnp_max_numbers" format="integer" />
+        <attr name="hnp_default_numbers" format="integer" />
+        <attr name="hnp_circle_size" format="enum">
+            <enum name="small" value="0" />
+            <enum name="medium" value="1" />
+            <enum name="large" value="2" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="PhoneNumberInput">
+        <attr name="phone_number_type" format="enum">
+            <enum name="primary" value="0" />
+            <enum name="optional" value="1" />
+        </attr>
+    </declare-styleable>
+</resources>
